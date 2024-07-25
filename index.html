@@ -77,7 +77,7 @@
             name = "Anonymous";
         }
 
-        const sock = new WebSocket("ws://localhost:5001");
+        const sock = new WebSocket("https://realtime-chat-app-t1ph.onrender.com");
 
         sock.addEventListener('open', () => {
             sock.send(JSON.stringify({
